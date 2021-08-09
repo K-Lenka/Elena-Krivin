@@ -1,0 +1,13 @@
+body {
+    font-family: 'Barlow', 'Open Sans', sans-serif;
+}
+
+header {
+    height: 126px;
+    background-color: rgb(243 233 223);
+}
+
+main {
+    background-color: rgb(230 218 206);
+    height: 800px;
+}
