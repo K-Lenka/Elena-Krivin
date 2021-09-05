@@ -1,0 +1,108 @@
+.container__center {
+    margin: 0 auto;
+}
+
+.content {
+    background-color: #e6dace;
+}
+
+.block__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__title {
+    font-size: 2.5rem;
+}
+
+.section__subtitle {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+}
+
+.square__lrg {
+    height: 24px;
+    width: 24px;
+}
+
+.square__sml {
+    height: 13px;
+    width: 13px;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row__box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
+    margin-top: 44px;
+    justify-content: space-between;
+    padding: 39px;
+    max-width: 724px;
+}
+
+.section__name {
+    padding: 70px 0 16px;
+}
+
+.job__data {
+    /* padding: 80px 0 50px 36px; */
+    max-width: 40%;
+}
+
+.job__description {
+    /* padding: 80px 30px 80px 67px; */
+    max-width: 60%;
+}
+
+.btn__downlow {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.skills__content {
+    justify-content: flex-start;
+}
+
+.skillsbox {
+    padding: 50px 47px 50px 36px;
+}
+
+.skill__pair {
+    padding: 10px 0;
+    align-items: baseline;
+}
+
+ul {
+    list-style: none;
+}
+
+.li {
+    padding: 0 0 15px 0;
+}
+
+#year {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #1737eb;
+}
+
+#position {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}

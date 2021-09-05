@@ -34,11 +34,14 @@ ul {
     padding: 0;
 }
 
-.content {
-    flex: 1 1 auto;
+.content__cover {
     background-image: url(/img/png/cover.png);
     background-size: 42%;
     background-repeat: repeat-y;
+}
+
+.content {
+    flex: 1 1 auto;
 }
 
 .wrapper {
@@ -108,16 +111,19 @@ ul {
 }
 
 .square {
-    height: 17px;
-    width: 17px;
     background-color: #1737eb;
     display: inline-block;
     margin-right: 10px;
 }
 
+.square__mdm {
+    height: 17px;
+    width: 17px;
+}
+
 .header__title {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: baseline;
 }
 
@@ -210,13 +216,15 @@ ul {
     border-radius: 18px;
     padding: 8px 22px;
     border: 1px solid;
-    width: 126px;
     cursor: pointer;
 }
 
-.btn_colored {
+.btn__prime_color {
     border-color: rgb(23, 55, 235);
     background-color: rgb(23, 55, 235);
+}
+
+.btn_colored {
     margin: 0 10px 0 0;
 }
 
@@ -247,6 +255,7 @@ ul {
 
 .left__btn {
     color: rgb(255, 255, 255);
+    padding: 9px;
 }
 
 .right__btn {
