@@ -49,8 +49,11 @@
     box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
     margin-top: 44px;
     justify-content: space-between;
-    padding: 39px;
     max-width: 724px;
+}
+
+.row__card {
+    padding: 39px;
 }
 
 .section__name {
