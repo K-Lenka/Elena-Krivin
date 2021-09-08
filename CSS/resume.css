@@ -6,11 +6,6 @@
     background-color: #e6dace;
 }
 
-.block__column {
-    display: flex;
-    flex-direction: column;
-}
-
 .section__title {
     font-size: 2.5rem;
 }
@@ -49,7 +44,6 @@
     box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
     margin-top: 44px;
     justify-content: space-between;
-    max-width: 724px;
 }
 
 .row__card {
@@ -61,11 +55,12 @@
 }
 
 .job__data {
-    max-width: 40%;
+    flex: 1;
 }
 
 .job__description {
-    max-width: 60%;
+    flex: 1;
+    max-width: 350px;
 }
 
 .btn__downlow {

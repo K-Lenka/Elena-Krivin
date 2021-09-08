@@ -8,10 +8,11 @@
     background-image: url(/img/png/tim-mossholder-GOMhuCj-O9w-unsplash.png);
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 50%;
 }
 
 .project___description {
-    padding: 50px;
+    padding: 50px 188px 0 30px;
 }
 
 .proj__name {
