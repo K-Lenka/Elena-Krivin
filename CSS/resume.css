@@ -58,12 +58,10 @@
 }
 
 .job__data {
-    /* padding: 80px 0 50px 36px; */
     max-width: 40%;
 }
 
 .job__description {
-    /* padding: 80px 30px 80px 67px; */
     max-width: 60%;
 }
 

@@ -1,0 +1,21 @@
+.project___block {
+    max-width: 50%;
+}
+
+.project__image {
+    width: 400px;
+    height: 300px;
+    background-image: url(/img/png/tim-mossholder-GOMhuCj-O9w-unsplash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project___description {
+    padding: 50px;
+}
+
+.proj__name {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #1737eb;
+}
