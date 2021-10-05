@@ -1,0 +1,151 @@
+.block__column {
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0 200px;
+    margin-top: 90px;
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+input,
+select,
+textarea {
+    color: #5A5A5A;
+    margin: 0;
+    text-transform: none;
+}
+
+input {
+    line-height: normal;
+}
+
+textarea {
+    overflow: auto;
+}
+
+form {
+    width: 35%;
+    padding: 70px;
+    margin: 50px 0;
+    background-color: white;
+    box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
+}
+
+.email {
+    width: 100%;
+}
+
+input[type='text'],
+[type='email'],
+select,
+textarea {
+    font-size: 16px;
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-weight: bold;
+    margin: 0 0 50px 0;
+    padding: 0 0 40px 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+input[type='text']:focus,
+[type='email']:focus,
+textarea:focus {
+    outline: none;
+    border-bottom: solid 2px rgb(23, 55, 235);
+}
+
+.message {
+    float: none;
+}
+
+.first_name {
+    width: 45%;
+}
+
+.last_name {
+    width: 45%;
+}
+
+select {
+    background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.subject {
+    width: 100%;
+}
+
+.telephone {
+    width: 100%;
+}
+
+textarea {
+    line-height: 150%;
+    height: 150px;
+    resize: none;
+    width: 100%;
+}
+
+ ::-webkit-input-placeholder {
+    color: #474544;
+}
+
+ :-moz-placeholder {
+    color: #474544;
+    opacity: 1;
+}
+
+ ::-moz-placeholder {
+    color: #474544;
+    opacity: 1;
+}
+
+ :-ms-input-placeholder {
+    color: #474544;
+}
+
+
+/* @media screen and (max-width: 768px) {
+    #container {
+        margin: 20px auto;
+        width: 95%;
+    }
+} */
+
+#form_button {
+    padding: 15px 25px;
+}
+
+input[type='text'],
+[type='email'],
+select,
+textarea {
+    font-size: 1.1em;
+}

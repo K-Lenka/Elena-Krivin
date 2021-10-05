@@ -57,36 +57,6 @@ ul {
     padding: 0 15px;
 }
 
-@media screen and (max-width: 1800px) {
-    .container {
-        max-width: 1600px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .container {
-        max-width: 1345px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .container {
-        max-width: 970px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .container {
-        max-width: 750px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .container {
-        max-width: none;
-    }
-}
-
 .header__sticky {
     top: 0;
     position: fixed;
@@ -213,10 +183,20 @@ ul {
 }
 
 .buttons {
+    display: inline-block;
     border-radius: 18px;
     padding: 8px 22px;
     border: 1px solid;
     cursor: pointer;
+    font-family: 'Helvetica', Arial, sans-serif;
+    text-transform: uppercase;
+    background: none;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .btn__prime_color {
@@ -304,4 +284,37 @@ ul {
 
 .contacts {
     padding-top: 11px;
+}
+
+
+/* MEDIA */
+
+@media screen and (max-width: 1800px) {
+    .container {
+        max-width: 1600px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1345px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
 }
