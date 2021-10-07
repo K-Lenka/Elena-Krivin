@@ -74,6 +74,7 @@ ul {
     display: flex;
     font-size: 1rem;
     padding: 0 0 0 30px;
+    text-transform: uppercase;
 }
 
 .name {
