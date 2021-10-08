@@ -1,14 +1,9 @@
-.project___block {
-    max-width: 50%;
-}
-
 .project__image {
     width: 400px;
-    height: 300px;
-    background-image: url(/img/png/tim-mossholder-GOMhuCj-O9w-unsplash.png);
+    height: 267px;
+    background-image: url("/img/png/tim-mossholder-GOMhuCj-O9w-unsplash.png");
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 50%;
 }
 
 .project___description {

@@ -55,12 +55,18 @@
 }
 
 .job__data {
-    flex: 1;
+    /* flex: 0 1 50%; */
+    padding: 40px;
 }
 
 .job__description {
-    flex: 1;
-    max-width: 350px;
+    flex: 0 1 50%;
+    text-align: justify;
+    background-image: url("/img/jpg/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px 15px;
 }
 
 .btn__downlow {
