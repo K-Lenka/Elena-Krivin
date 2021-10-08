@@ -7,7 +7,7 @@ hr {
     width: 53px;
     display: block;
     height: 5px;
-    border: 1px solid rgb(45 125 242);
+    border: 1px solid #478edf;
     border-radius: 3px;
     overflow: hidden;
 }
@@ -84,6 +84,14 @@ ul {
     font-size: 1rem;
     padding: 0 0 0 30px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.nav__link:hover {
+    color: #478edf;
+    font-weight: 500;
+    transition: all .1s ease-out;
 }
 
 .name {
@@ -91,7 +99,7 @@ ul {
 }
 
 .square {
-    background-color: #1737eb;
+    background-color: #478edf;
     display: inline-block;
     margin-right: 10px;
 }
@@ -204,6 +212,10 @@ ul {
     padding-bottom: 45px;
 }
 
+.info__buttons a {
+    width: 75px;
+}
+
 .buttons {
     display: inline-block;
     border-radius: 18px;
@@ -211,7 +223,10 @@ ul {
     border: 1px solid;
     cursor: pointer;
     font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
     text-transform: uppercase;
+    text-align: center;
     background: none;
     outline: none;
     -webkit-transition: all 0.3s;
@@ -222,46 +237,32 @@ ul {
 }
 
 .btn__prime_color {
-    border-color: rgb(23, 55, 235);
-    background-color: rgb(23, 55, 235);
+    border-color: #478edf;
+    background-color: #478edf;
 }
 
 .btn_colored {
     margin: 0 10px 0 0;
+    color: rgb(255, 255, 255);
 }
 
-.btn_colored:hover,
-.btn_colored:hover a {
+.btn_colored:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     transition: all .1s ease-out;
 }
 
 .btn {
+    color: rgb(0, 0, 0);
     border-color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
 }
 
-.btn:hover,
-.btn:hover a {
-    background-color: rgb(23, 55, 235);
-    border-color: rgb(23, 55, 235);
+.btn:hover {
+    background-color: #478edf;
+    border-color: #478edf;
     color: rgb(255, 255, 255);
     transition: all .1s ease-out;
-}
-
-.btn__link {
-    font-weight: 600;
-    font-size: 14px;
-}
-
-.left__btn {
-    color: rgb(255, 255, 255);
-    padding: 9px;
-}
-
-.right__btn {
-    color: rgb(0, 0, 0);
 }
 
 .info__text {
@@ -306,6 +307,11 @@ ul {
 
 .contacts {
     padding-top: 11px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;
 }
 
 

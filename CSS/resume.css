@@ -73,12 +73,13 @@
     padding: 40px 15px;
 }
 
-.btn__downlow {
-    font-family: 'Barlow';
-    font-weight: 700;
-    font-size: 1rem;
+.btn__download {
     color: white;
-    text-transform: uppercase;
+}
+
+.btn__download:hover {
+    color: rgb(0, 0, 0);
+    border-color: #478edf;
 }
 
 .skills__content {
@@ -105,7 +106,7 @@ ul {
 .year {
     font-size: 1.3rem;
     font-weight: 800;
-    color: #1737eb;
+    color: #478edf;
 }
 
 .position {
