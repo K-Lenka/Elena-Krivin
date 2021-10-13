@@ -3,15 +3,6 @@ body {
     height: 100%;
 }
 
-hr {
-    width: 53px;
-    display: block;
-    height: 5px;
-    border: 1px solid #478edf;
-    border-radius: 3px;
-    overflow: hidden;
-}
-
 h1,
 h2,
 h3,
@@ -116,6 +107,24 @@ header::before {
     background-color: #478edf;
     display: inline-block;
     margin-right: 10px;
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+}
+
+.square:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .square__mdm {
@@ -128,6 +137,12 @@ header::before {
     align-items: baseline;
     position: relative;
     z-index: 3;
+}
+
+.main__title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
 }
 
 .header__nav_list {
@@ -222,6 +237,20 @@ header::before {
 
 .intro__title {
     font-size: 2rem;
+}
+
+hr {
+    width: 53px;
+    display: block;
+    height: 5px;
+    border: 1px solid #478edf;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+hr:hover {
+    width: 160px;
 }
 
 .intro__subtitle {
@@ -322,7 +351,13 @@ header::before {
 .icon {
     width: 33px;
     height: 33px;
-    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    transition: 0.1;
+}
+
+.icon:hover {
+    transform: scale(1.1);
 }
 
 .action {
@@ -388,7 +423,7 @@ header::before {
     .header__nav_list.active {
         top: 0;
     }
-    .navigation {
+    .header__navigation {
         display: block;
     }
     .nav__link {
@@ -441,11 +476,23 @@ header::before {
     .header__burger.active span {
         transform: scale(0);
     }
+    .nav__column {
+        padding-left: 42px;
+    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .container {
-        max-width: none;
+        max-width: 650px;
+    }
+    .main__container {
+        max-width: 650px;
+    }
+    .info__title {
+        font-size: calc(4rem + (7 - 4) * ((100vw - 320px) / (992 - 320)));
+    }
+    .info__subtitle {
+        font-size: calc(1.2rem + (1.8 - 1.2) * ((100vw - 320px) / (992 - 320)));
     }
     .header__nav {
         height: 60px;
@@ -455,5 +502,46 @@ header::before {
     }
     .block__row {
         margin-top: 0;
+        padding: 140px 0 185px;
+    }
+    .block__column {
+        margin-top: 0;
+        padding: 125px 0 113px;
+    }
+    .card__info {
+        flex: 0 1 48%;
+    }
+    .card__intro {
+        display: none;
+    }
+    .main__cards {
+        flex-direction: column;
+    }
+    .card__info {
+        box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
+    }
+    .info__column {
+        width: 370px;
+        background-color: rgb(247 238 230);
+        padding: 25px 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__column {
+        padding-left: 32px;
     }
 }
+
+@media screen and (max-width: 710px) {
+    .container {
+        max-width: 550px;
+    }
+    .main__container {
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 376px) {}
+
+@media screen and (max-width: 320px) {}
