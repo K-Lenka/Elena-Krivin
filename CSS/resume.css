@@ -1,115 +1,237 @@
-.container__center {
-    margin: 0 auto;
-}
-
-.content {
-    background-color: #e6dace;
-}
-
-.section__title {
-    font-size: 2.5rem;
-}
-
-.section__subtitle {
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: 0.2px;
-}
-
-.languages__title {
-    padding-top: 30px;
-}
-
-.square__lrg {
-    height: 24px;
-    width: 24px;
-}
-
-.square__sml {
-    height: 13px;
-    width: 13px;
-}
-
-.flex {
-    display: flex;
-}
-
-.row {
-    align-items: center;
-    justify-content: space-between;
-}
-
-.col {
-    flex-direction: column;
-}
-
-.row__box {
-    background-color: rgb(255, 255, 255);
-    box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
-    margin-top: 44px;
-    justify-content: space-between;
-}
-
-.row__card {
-    padding: 40px;
-}
-
-.section__name {
-    padding: 70px 0 16px;
-}
-
-.job__data {
-    /* flex: 0 1 50%; */
-    padding: 40px;
-}
-
-.job__description {
-    flex: 0 1 50%;
-    text-align: justify;
-    background-image: url("/img/jpg/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 40px 15px;
-}
-
-.btn__download {
-    color: white;
-}
-
-.btn__download:hover {
-    color: rgb(0, 0, 0);
-    border-color: #478edf;
-}
-
-.skills__content {
-    margin-top: 80px;
-}
-
-.skillsbox {
-    padding: 30px 80px 0 0;
-}
-
-.skill__pair {
-    padding: 10px 0;
-    align-items: baseline;
-}
-
-ul {
-    list-style: none;
-}
-
-.li {
-    padding: 0 0 15px 0;
-}
-
-.year {
-    font-size: 1.3rem;
-    font-weight: 800;
-    color: #478edf;
-}
-
-.position {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-}
+    .container__center {
+        margin: 0 auto;
+    }
+    
+    .content {
+        background-color: #e6dace;
+    }
+    
+    .section__title {
+        font-size: 2.5rem;
+    }
+    
+    .section__subtitle {
+        font-size: 1.5rem;
+        font-weight: 800;
+        letter-spacing: 0.2px;
+    }
+    
+    .languages__title {
+        padding-top: 30px;
+    }
+    
+    .square__lrg {
+        height: 24px;
+        width: 24px;
+    }
+    
+    .square__sml {
+        height: 13px;
+        width: 13px;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .row {
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .col {
+        flex-direction: column;
+    }
+    
+    .row__box {
+        background-color: rgb(255, 255, 255);
+        box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
+        margin-top: 44px;
+        justify-content: space-between;
+    }
+    
+    .row__card {
+        padding: 40px;
+    }
+    
+    .section__name {
+        padding: 70px 0 16px;
+    }
+    
+    .job__data {
+        /* flex: 0 1 50%; */
+        padding: 40px;
+    }
+    
+    .job__description {
+        flex: 0 1 50%;
+        text-align: justify;
+        background-image: url("/img/jpg/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 40px 15px;
+    }
+    
+    .btn__download {
+        color: white;
+    }
+    
+    .btn__download:hover {
+        color: rgb(0, 0, 0);
+        border-color: #478edf;
+    }
+    
+    .skills__content {
+        margin-top: 80px;
+    }
+    
+    .skillsbox {
+        padding: 30px 80px 0 0;
+    }
+    
+    .skill__pair {
+        padding: 10px 0;
+        align-items: baseline;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .li {
+        padding: 0 0 15px 0;
+    }
+    
+    .year {
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: #478edf;
+    }
+    
+    .position {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .row__box {
+            margin-top: 34px;
+        }
+        .section__name {
+            padding: 42px 0 0px;
+        }
+        .section__title {
+            font-size: 2rem;
+        }
+        .section__subtitle {
+            font-size: 1.4rem;
+        }
+        .year {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+        .position {
+            font-size: 1.1rem;
+        }
+        .company {
+            font-size: 14px;
+        }
+        .job__description {
+            font-size: 14px;
+        }
+        .skillsbox {
+            padding: 30px 60px 0 0;
+        }
+        .skill__pair {
+            font-size: 14px;
+        }
+    }
+    
+    @media screen and (max-width: 710px) {
+        .block__column {
+            padding: 93px 0 49px;
+        }
+        .square__lrg {
+            height: 20px;
+            width: 20px;
+        }
+        .skillsbox {
+            padding: 30px 30px 0 0;
+        }
+    }
+    
+    @media screen and (max-width: 590px) {
+        .job__data {
+            padding: 30px;
+        }
+        .job__description {
+            padding: 30px 15px;
+        }
+        .skillsbox {
+            padding: 21px 24px 0 0;
+        }
+    }
+    
+    @media screen and (max-width: 470px) {
+        .section__title {
+            font-size: 1.8rem;
+        }
+        .row__card {
+            padding: 20px;
+        }
+        .skillsbox {
+            padding: 21px 10px 0 0;
+        }
+    }
+    
+    @media screen and (max-width: 420px) {
+        .section__title {
+            font-size: 1.6rem;
+        }
+        .section__subtitle {
+            font-size: 1.1rem;
+        }
+        .section__name {
+            padding: 27px 0 0;
+        }
+        .square__lrg {
+            height: 17px;
+            width: 17px;
+        }
+        .square__sml {
+            height: 10px;
+            width: 10px;
+        }
+        .row__box {
+            margin-top: 21px;
+        }
+        .row__card {
+            padding: 20px;
+        }
+        .year {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        .position {
+            font-size: 1rem;
+        }
+        .company {
+            font-size: 13px;
+        }
+        .job__description {
+            padding: 15px;
+            font-size: 13px;
+        }
+        .job__data {
+            padding: 15px;
+        }
+        .skills {
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skillsbox {
+            width: 45%;
+            padding: 0 0 0 0;
+        }
+    }

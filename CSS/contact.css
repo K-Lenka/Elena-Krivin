@@ -142,23 +142,58 @@ textarea {
     color: #474544;
 }
 
-
-/* @media screen and (max-width: 768px) {
-    #container {
-        margin: 20px auto;
-        width: 95%;
-    }
-} */
-
-
-/* .submit {
-    width: 43%;
-} */
-
 input[type='text'],
 [type='email'],
 select,
 textarea,
 label {
     font-size: 1.1em;
+}
+
+
+/* calc(4rem+(7 - 4) * ((100vw - 320px) / (992 - 320))); */
+
+@media screen and (max-width: 710px) {
+    form {
+        padding: calc(23px + (70 - 23) * ((100vw - 320px) / (710 - 320)));
+        margin-bottom: calc(22px + (50 - 22) * ((100vw - 320px) / (710 - 320)));
+        margin-top: calc(22px + (50 - 22) * ((100vw - 320px) / (710 - 320)));
+    }
+}
+
+@media screen and (max-width: 420px) {}
+
+@media screen and (max-width: 376px) {
+    .block__name {
+        flex-direction: column;
+    }
+    .first_name {
+        width: 100%;
+    }
+    .last_name {
+        width: 100%;
+    }
+    input[type='text'],
+    [type='email'],
+    select,
+    textarea {
+        margin: 0 0 19px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .section__title {
+        font-size: 1.1rem;
+    }
+    .square__lrg {
+        height: 16px;
+        width: 16px;
+    }
+    input[type='text'],
+    [type='email'],
+    select,
+    textarea,
+    label {
+        font-size: 13px;
+    }
 }
