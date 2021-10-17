@@ -9,7 +9,6 @@ body {
 
 p {
     margin: 0;
-    padding-bottom: 45px;
 }
 
 a {
@@ -192,7 +191,7 @@ header::before {
 
 .info__title {
     font-size: 7rem;
-    padding-bottom: 10px;
+    line-height: 95px;
 }
 
 .info__subtitle {
@@ -212,6 +211,67 @@ header::before {
 .card__info {
     flex: 0 1 47%;
 }
+
+
+/* typed out style start*/
+
+.typed__container1 {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.typed-out1 {
+    overflow: hidden;
+    border-right: 3px solid transparent;
+    white-space: nowrap;
+    animation: typing 1.5s steps(20, end) forwards, blinking .75s step-end 2;
+    width: 0;
+}
+
+.typed__container2 {
+    display: inline-block;
+    margin-bottom: 45px;
+}
+
+.typed-out2 {
+    overflow: hidden;
+    border-right: 3px solid transparent;
+    white-space: nowrap;
+    animation: typing 1.5s steps(30, end) forwards, blinking .75s step-end infinite, slidein 1s ease 3.5s forwards;
+    width: 0;
+    animation-delay: 1.5s;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinking {
+    100% {
+        border-color: transparent
+    }
+    50% {
+        border-color: #478edf;
+    }
+}
+
+
+/* @keyframes slidein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+
+
+/* typed out style end */
 
 .intro__column {
     height: 500px;
@@ -241,8 +301,8 @@ hr {
     height: 5px;
     border: 1px solid #478edf;
     border-radius: 3px;
-    overflow: hidden;
     transition: all 0.3s ease 0s;
+    margin-top: 5px;
 }
 
 hr:hover {
@@ -489,6 +549,7 @@ hr:hover {
     }
     .info__title {
         font-size: calc(2rem + (7 - 2) * ((100vw - 320px) / (768 - 320)));
+        line-height: 35px;
     }
     .info__subtitle {
         font-size: calc(1rem + (1.8 - 1) * ((100vw - 320px) / (768 - 320)));
@@ -627,8 +688,8 @@ hr:hover {
         font-size: 13px;
         padding: 0;
     }
-    .info__subtitle {
-        padding-bottom: 25px;
+    .typed__container2 {
+        margin-bottom: 30px;
     }
 }
 
