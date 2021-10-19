@@ -1,7 +1,7 @@
 .project__image {
     width: 400px;
     height: 267px;
-    background-image: url("/img/png/tim-mossholder-GOMhuCj-O9w-unsplash.png");
+    background-image: url("./img/png/tim-mossholder-GOMhuCj-O9w-unsplash.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
