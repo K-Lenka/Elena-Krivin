@@ -1,5 +1,5 @@
 body {
-    font-family: 'Barlow', 'Open Sans', sans-serif;
+    font-family: "Barlow", "Open Sans", sans-serif;
     height: 100%;
 }
 
@@ -61,7 +61,7 @@ header {
 }
 
 header::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -91,7 +91,7 @@ header::before {
 .nav__link:hover {
     color: #478edf;
     font-weight: 500;
-    transition: all .1s ease-out;
+    transition: all 0.1s ease-out;
 }
 
 .name {
@@ -102,19 +102,19 @@ header::before {
     background-color: #478edf;
     display: inline-block;
     margin-right: 10px;
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
 }
 
 .square:hover {
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
@@ -224,7 +224,7 @@ header::before {
     overflow: hidden;
     border-right: 3px solid transparent;
     white-space: nowrap;
-    animation: typing 1.5s steps(20, end) forwards, blinking .75s step-end 2;
+    animation: typing 1.5s steps(20, end) forwards, blinking 0.75s step-end 2;
     width: 0;
 }
 
@@ -237,14 +237,14 @@ header::before {
     overflow: hidden;
     border-right: 3px solid transparent;
     white-space: nowrap;
-    animation: typing 1.5s steps(30, end) forwards, blinking .75s step-end infinite, slidein 1s ease 3.5s forwards;
+    animation: typing 1.5s steps(30, end) forwards, blinking 0.75s step-end infinite, slidein 1s ease 3.5s forwards;
     width: 0;
     animation-delay: 1.5s;
 }
 
 @keyframes typing {
     from {
-        width: 0
+        width: 0;
     }
     to {
         width: 100%;
@@ -253,7 +253,7 @@ header::before {
 
 @keyframes blinking {
     100% {
-        border-color: transparent
+        border-color: transparent;
     }
     50% {
         border-color: #478edf;
@@ -330,7 +330,7 @@ hr:hover {
     padding: 8px 22px;
     border: 1px solid;
     cursor: pointer;
-    font-family: 'Helvetica', Arial, sans-serif;
+    font-family: "Helvetica", Arial, sans-serif;
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
@@ -357,7 +357,7 @@ hr:hover {
 .btn_colored:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    transition: all .1s ease-out;
+    transition: all 0.1s ease-out;
 }
 
 .btn {
@@ -370,7 +370,7 @@ hr:hover {
     background-color: #478edf;
     border-color: #478edf;
     color: rgb(255, 255, 255);
-    transition: all .1s ease-out;
+    transition: all 0.1s ease-out;
 }
 
 .info__text {
@@ -503,7 +503,7 @@ hr:hover {
     }
     .header__burger::before,
     .header__burger::after {
-        content: '';
+        content: "";
         background-color: black;
         position: absolute;
         width: 100%;
@@ -543,7 +543,7 @@ hr:hover {
         max-width: 650px;
     }
     .content__cover {
-        background-size: 50%
+        background-size: 50%;
     }
     .info__title {
         font-size: calc(2rem + (7 - 2) * ((100vw - 320px) / (768 - 320)));
@@ -617,7 +617,12 @@ hr:hover {
     }
     .rights {
         font-size: 12px;
-        padding-top: 26px;
+        margin-top: 26px;
+        padding-top: 6px;
+        border-top: 1px solid #c9c9c9;
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
     }
     .nav__row {
         width: 100%;
@@ -727,7 +732,7 @@ hr:hover {
     }
     .rights {
         font-size: 10px;
-        padding-top: 11px;
+        margin-top: 11px;
     }
     .icon {
         width: 22px;
