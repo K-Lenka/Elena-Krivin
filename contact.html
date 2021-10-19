@@ -71,16 +71,16 @@
                         </div>
                         <div class="subject">
                             <label for="subject">Subject line</label>
-                            <select placeholder="" name="subject" id="subject_input" required>
-                                        <option disabled hidden selected></option>
-                                        <option>I'd like to start a project</option>
-                                        <option>I'd like to ask a question</option>
-                                        <option>I'd like to make a proposal</option>
-                                    </select>
+                            <select name="subject" id="subject" required>
+                                        <option value="" disabled hidden selected></option>
+                                        <option value="project">I'd like to start a project</option>
+                                        <option value="question">I'd like to ask a question</option>
+                                        <option value="proposal">I'd like to make a proposal</option>
+                            </select>
                         </div>
-                        <div class="message">
+                        <div class="message__field">
                             <label for="message">Message</label>
-                            <textarea name="message" placeholder="" id="message_input" cols="30" rows="7" required></textarea>
+                            <textarea name="message" placeholder="" id="message" cols="30" rows="7" required></textarea>
                         </div>
                         <div class="submit">
                             <input type="submit" value="Send" class="buttons btn_colored btn__prime_color" />

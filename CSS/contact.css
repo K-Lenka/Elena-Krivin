@@ -85,7 +85,7 @@ textarea:focus {
     border-bottom: solid 2px #478edf;
 }
 
-.message {
+.message__field {
     float: none;
 }
 
