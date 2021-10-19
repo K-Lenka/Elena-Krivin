@@ -66,7 +66,7 @@
     .job__description {
         flex: 0 1 50%;
         text-align: justify;
-        background-image: url("/img/jpg/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg");
+        background-image: url("../img/jpg/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -163,7 +163,7 @@
     
     @media screen and (max-width: 590px) {
         .job__data {
-            padding: 30px;
+            padding: 30px 15px;
         }
         .job__description {
             padding: 30px 15px;
@@ -185,7 +185,7 @@
         }
     }
     
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 419px) {
         .section__title {
             font-size: 1.6rem;
         }
@@ -209,6 +209,9 @@
         .row__card {
             padding: 20px;
         }
+        .job__data {
+            padding: 15px;
+        }
         .year {
             font-size: 1.1rem;
             font-weight: 600;
@@ -222,9 +225,6 @@
         .job__description {
             padding: 15px;
             font-size: 13px;
-        }
-        .job__data {
-            padding: 15px;
         }
         .skills {
             flex-wrap: wrap;

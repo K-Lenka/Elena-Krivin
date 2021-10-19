@@ -21,7 +21,7 @@ ul {
 }
 
 .content__cover {
-    background-image: url(/img/png/cover.png);
+    background-image: url("/img/png/cover.png");
     background-size: 42%;
     background-repeat: repeat-y;
 }
@@ -260,15 +260,14 @@ header::before {
     }
 }
 
-
-/* @keyframes slidein {
+@keyframes slidein {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
     }
-} */
+}
 
 
 /* typed out style end */
@@ -298,7 +297,6 @@ header::before {
 hr {
     width: 53px;
     display: block;
-    height: 5px;
     border: 1px solid #478edf;
     border-radius: 3px;
     transition: all 0.3s ease 0s;
