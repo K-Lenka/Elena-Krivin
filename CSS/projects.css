@@ -1,17 +1,32 @@
-.project__image {
-    width: 400px;
-    height: 267px;
-    background-image: url("../img/png/tim-mossholder-GOMhuCj-O9w-unsplash.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+.project_name__block {
+    width: 50%;
 }
 
-.project___description {
-    padding: 50px 188px 0 30px;
+.project_image__block {
+    width: 50%;
+}
+
+.project__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.project__description {
+    padding: 50px;
 }
 
 .proj__name {
-    font-size: 1.3rem;
+    font-size: 20px;
     font-weight: 800;
     color: #478edf;
+}
+
+@media screen and (max-width: 710px) {
+    .project__description {
+        padding: calc(10px + (50 - 10) * ((100vw - 320px) / (710 - 320)));
+    }
+    .proj__name {
+        font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (710 - 320)));
+    }
 }
