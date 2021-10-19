@@ -161,9 +161,7 @@ label {
     }
 }
 
-@media screen and (max-width: 420px) {}
-
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 576px) {
     .block__name {
         flex-direction: column;
     }
@@ -173,6 +171,9 @@ label {
     .last_name {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 376px) {
     input[type='text'],
     [type='email'],
     select,
