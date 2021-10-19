@@ -171,6 +171,10 @@ label {
     .last_name {
         width: 100%;
     }
+    .submit {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 376px) {
