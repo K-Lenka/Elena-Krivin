@@ -27,6 +27,11 @@
     padding: 50px;
 }
 
+.project__description p {
+    margin-top: 21px;
+    font-size: 18px;
+}
+
 .proj__name {
     font-size: 20px;
     font-weight: 800;
@@ -39,5 +44,9 @@
     }
     .proj__name {
         font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (710 - 320)));
+    }
+    .project__description p {
+        font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (710 - 320)));
+        ;
     }
 }
