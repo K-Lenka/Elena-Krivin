@@ -38,6 +38,10 @@
     color: var(--color-prime);
 }
 
+.discover {
+    margin-top: 57px;
+}
+
 @media screen and (max-width: 710px) {
     .project__description {
         padding: calc(10px + (50 - 10) * ((100vw - 320px) / (710 - 320)));
@@ -48,5 +52,8 @@
     .project__description p {
         font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (710 - 320)));
         ;
+    }
+    .discover {
+        margin-top: calc(21px + (57 - 21) * ((100vw - 320px) / (710 - 320)));
     }
 }
