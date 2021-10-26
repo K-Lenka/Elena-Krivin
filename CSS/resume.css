@@ -75,11 +75,12 @@
 }
 
 .job__data {
-    padding: 40px;
+    width: 45%;
+    padding: 40px 15px 40px 40px;
 }
 
 .job__description {
-    flex: 0 1 50%;
+    width: 50%;
     text-align: justify;
     background-image: url("../img/jpg/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg");
     background-size: cover;
@@ -118,6 +119,10 @@ ul {
     padding: 0 0 15px 0;
 }
 
+.li:last-of-type {
+    padding: 0;
+}
+
 .year {
     font-size: 1.3rem;
     font-weight: 800;
@@ -127,6 +132,32 @@ ul {
 .position {
     font-size: 1.2rem;
     text-transform: uppercase;
+    line-height: 25px;
+}
+
+.education__list {
+    width: 100%;
+    background-image: url(../img/jpg/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.course {
+    align-items: center;
+}
+
+.course_year {
+    padding-right: 20px;
+}
+
+.resource {
+    padding: 15px 0 15px;
+    text-transform: uppercase;
+}
+
+.resource:last-of-type {
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -155,11 +186,11 @@ ul {
     .job__description {
         font-size: 14px;
     }
-    .skillsbox {
-        padding: 30px 60px 0 0;
-    }
     .skill__pair {
         font-size: 14px;
+    }
+    .skillsbox {
+        padding: 30px 60px 0 0;
     }
 }
 
@@ -174,6 +205,9 @@ ul {
     .skillsbox {
         padding: 30px 30px 0 0;
     }
+    .position {
+        line-height: 13px;
+    }
 }
 
 @media screen and (max-width: 590px) {
@@ -185,6 +219,21 @@ ul {
     }
     .skillsbox {
         padding: 21px 24px 0 0;
+    }
+    .year {
+        font-size: 1rem;
+    }
+    .position {
+        font-size: 1rem;
+    }
+    .company {
+        font-size: 13px;
+    }
+    .job__description {
+        font-size: 13px;
+    }
+    .skill__pair {
+        font-size: 13px;
     }
 }
 
@@ -228,14 +277,14 @@ ul {
         padding: 15px;
     }
     .year {
-        font-size: 1.1rem;
+        font-size: .8rem;
         font-weight: 600;
     }
     .position {
-        font-size: 1rem;
+        font-size: .8rem;
     }
     .company {
-        font-size: 13px;
+        font-size: 12px;
     }
     .job__description {
         padding: 15px;

@@ -51,6 +51,7 @@
     }
     .project__description p {
         font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (710 - 320)));
+        margin-top: calc(10px + (21 - 10) * ((100vw - 320px) / (710 - 320)));
         ;
     }
     .discover {
