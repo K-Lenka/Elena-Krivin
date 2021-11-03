@@ -349,19 +349,16 @@
         transition: all 0.3s;
     }
     
-    .btn__prime_color {
-        background: linear-gradient( 336deg, #478edf 0%, #d5a6fdde 100%);
-    }
-    
     .btn_colored {
         margin: 0 10px 0 0;
         color: var(--color-white);
+        background: linear-gradient( 336deg, #478edf 0%, #d5a6fdde 100%);
     }
     
     .btn_colored:hover {
         background: var(--color-white);
         color: var(--color-black);
-        transition: all 0.3s ease;
+        transition: all 0.3s ease-in-out;
     }
     
     .btn {
@@ -374,7 +371,7 @@
         border: none;
         background: linear-gradient( 140deg, #478edf 0%, #d5a6fdde 100%);
         color: var(--color-white);
-        transition: all 0.3s ease;
+        transition: all 0.3s ease-in-out;
     }
     
     .info__text {
