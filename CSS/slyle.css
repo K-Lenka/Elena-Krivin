@@ -214,6 +214,7 @@ header::before {
 .card__intro {
     flex: 0 1 47%;
     box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
+    border-radius: 5px;
 }
 
 .card__info {
@@ -288,6 +289,8 @@ header::before {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .bottom__row {
@@ -296,6 +299,8 @@ header::before {
     align-items: center;
     height: 55px;
     background-color: var(--color-white);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .intro__title {
@@ -434,6 +439,10 @@ hr:hover {
 .contacts a {
     text-decoration: none;
     color: black;
+}
+
+.rounded {
+    border-radius: 20px;
 }
 
 
@@ -576,15 +585,14 @@ hr:hover {
     }
     .card__info {
         flex: 0 1 48%;
+        box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
+        border-radius: 5px;
     }
     .card__intro {
         display: none;
     }
     .main__cards {
         flex-direction: column;
-    }
-    .card__info {
-        box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
     }
     .info__column {
         width: 370px;
@@ -593,6 +601,7 @@ hr:hover {
         align-items: center;
         display: flex;
         flex-direction: column;
+        border-radius: 5px;
     }
     .nav__column {
         padding-left: 32px;

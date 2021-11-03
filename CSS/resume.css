@@ -87,6 +87,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 40px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .btn__download {
