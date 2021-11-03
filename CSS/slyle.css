@@ -214,7 +214,7 @@ header::before {
 .card__intro {
     flex: 0 1 47%;
     box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .card__info {
@@ -289,8 +289,8 @@ header::before {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 .bottom__row {
@@ -299,8 +299,8 @@ header::before {
     align-items: center;
     height: 55px;
     background-color: var(--color-white);
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
 }
 
 .intro__title {
@@ -442,7 +442,7 @@ hr:hover {
 }
 
 .rounded {
-    border-radius: 20px;
+    border-radius: 7px;
 }
 
 
