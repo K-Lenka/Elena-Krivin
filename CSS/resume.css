@@ -139,7 +139,7 @@ ul {
 
 .education__list {
     width: 100%;
-    background-image: url(../img/jpg/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg);
+    background-image: url('../img/jpg/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
