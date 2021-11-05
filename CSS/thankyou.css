@@ -1,0 +1,22 @@
+body {
+    background: var(--main-background-menu);
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 7rem;
+    line-height: 95px;
+}
+
+p {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.thankyou__message {
+    margin-top: 260px;
+    padding: 50px;
+    border: 10px #f08814;
+    border-style: inset;
+}
