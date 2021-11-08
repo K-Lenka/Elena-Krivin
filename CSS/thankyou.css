@@ -20,3 +20,18 @@ p {
     border: 10px #f08814;
     border-style: inset;
 }
+
+@media screen and (max-width: 710px) {
+    h4 {
+        font-size: calc(3rem + (7 - 3) * ((100vw - 320px) / (710 - 320)));
+        line-height: calc(50px + (95 - 50) * ((100vw - 320px) / (710 - 320)));
+    }
+    .thankyou__message {
+        padding: calc(20px + (50 - 20) * ((100vw - 320px) / (710 - 320)));
+        margin-top: calc(20px + (260 - 20) * ((100vw - 320px) / (710 - 320)));
+    }
+    p {
+        font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (710 - 320)));
+        margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (710 - 320)));
+    }
+}
