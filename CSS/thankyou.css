@@ -2,13 +2,13 @@ body {
     background: var(--main-background-menu);
 }
 
-h4 {
+.thankyou__heading {
     font-family: 'Playfair Display', serif;
     font-size: 7rem;
     line-height: 95px;
 }
 
-p {
+.thankyou__text {
     text-transform: uppercase;
     margin-bottom: 20px;
     font-size: 24px;
