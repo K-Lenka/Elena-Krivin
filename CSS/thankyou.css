@@ -30,7 +30,7 @@ body {
         padding: calc(20px + (50 - 20) * ((100vw - 320px) / (710 - 320)));
         margin-top: calc(20px + (260 - 20) * ((100vw - 320px) / (710 - 320)));
     }
-    p {
+    .thankyou__text {
         font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (710 - 320)));
         margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (710 - 320)));
     }
