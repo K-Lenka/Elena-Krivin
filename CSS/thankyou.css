@@ -22,7 +22,7 @@ p {
 }
 
 @media screen and (max-width: 710px) {
-    h4 {
+    .thankyou__heading {
         font-size: calc(3rem + (7 - 3) * ((100vw - 320px) / (710 - 320)));
         line-height: calc(50px + (95 - 50) * ((100vw - 320px) / (710 - 320)));
     }
