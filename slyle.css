@@ -17,6 +17,7 @@
         --main-background-menu: #F7EEE6;
         --color-label: #474544;
         --color-option-text: #5A5A5A;
+        --color-orange: #ff9e1cc2;
     }
     /* HEADER */
     
@@ -338,7 +339,7 @@
     }
     
     .intro__image:after {
-        background: #ff9e1cc2;
+        background: var(--color-orange);
         animation: 2s counterclockwise infinite;
     }
     
@@ -478,14 +479,15 @@
     
     .btn_colored:hover {
         background: var(--color-white);
-        color: var(--color-black);
+        color: var(--color-option-text);
         transition: all 0.3s ease-in-out;
+        border-color: var(--color-orange);
     }
     
     .btn {
-        color: var(--color-black);
-        border-color: var(--color-black);
-        background-color: var(--color-white);
+        color: var(--color-option-text);
+        border-color: var(--color-orange);
+        background-color: transparent;
     }
     
     .btn:hover {
