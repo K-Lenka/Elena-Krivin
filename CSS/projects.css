@@ -18,24 +18,21 @@
 }
 
 .project__image {
+    position: relative;
     display: block;
     max-width: 100%;
     height: auto;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     cursor: pointer;
-    position: relative;
-    -webkit-transform: scale(1);
-    transform: scale(1);
     -webkit-transition: .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
 .project__image:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    box-shadow: -9px 8px 20px 0px #5a5a5ac4;
     border-radius: 20px;
-    box-shadow: -3px 1px 20px 0px rgb(116 112 234);
+    transform: translate(0px, -2px);
 }
 
 .project__description {
@@ -55,6 +52,11 @@
 
 .discover {
     margin-top: 57px;
+}
+
+.rounded2 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 @media screen and (max-width: 710px) {

@@ -309,8 +309,7 @@
         height: 205px;
         border-radius: 50%;
         margin: 43px 0 65px;
-        transition: 1s box-shadow;
-        background-image: url("/img/png/me.PNG");
+        background-image: url("./img/png/me.PNG");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -319,10 +318,6 @@
         max-width: 100%;
         display: block;
         border-radius: 50%;
-    }
-    
-    .intro__image:hover {
-        box-shadow: 0 5px 35px 0px rgba(0, 0, 0, .1);
     }
     
     .intro__image::before,
