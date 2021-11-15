@@ -331,11 +331,13 @@
         border-radius: 50%;
         z-index: -1;
         animation: 1s clockwise infinite;
+        animation-delay: 1s;
     }
     
     .intro__image:after {
         background: var(--color-orange);
         animation: 2s counterclockwise infinite;
+        animation-delay: 1s;
     }
     
     @keyframes clockwise {
