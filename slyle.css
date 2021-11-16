@@ -530,7 +530,7 @@ hr {
     height: 33px;
     margin-left: 10px;
     border-radius: 50px;
-    transition: 0.1;
+    transition: 0.1s;
 }
 
 .icon:hover {
@@ -556,11 +556,35 @@ hr {
 }
 
 .contact__link {
+    position: relative;
     color: #9878da;
+}
+
+.contact__link::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    background-color: var(--color-orange);
+    transition: all 0.3s ease-in-out;
+}
+
+.contact__link:hover::after {
+    content: "";
+    position: absolute;
+    width: 98%;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    background-color: var(--color-orange);
+    transition: all 0.3s ease-in-out;
 }
 
 .contact__link:hover {
     font-weight: bold;
+    transition: all 0.3s ease-in-out;
 }
 
 
