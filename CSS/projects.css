@@ -27,12 +27,12 @@
     cursor: pointer;
     -webkit-transition: .3s ease-in-out;
     transition: all .3s ease-in-out;
+    box-shadow: -9px 8px 20px 0px #5a5a5ac4;
+    border-radius: 20px;
 }
 
 .project__image:hover {
-    box-shadow: -9px 8px 20px 0px #5a5a5ac4;
-    border-radius: 20px;
-    transform: translate(0px, -2px);
+    opacity: .7;
 }
 
 .project__description {
