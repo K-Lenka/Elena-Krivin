@@ -27,12 +27,14 @@
     cursor: pointer;
     -webkit-transition: .3s ease-in-out;
     transition: all .3s ease-in-out;
-    box-shadow: -9px 8px 20px 0px #5a5a5ac4;
+    box-shadow: -9px 8px 20px 0px rgb(173 173 173 / 89%);
     border-radius: 20px;
+    transform: translate(10px, 0px);
 }
 
 .project__image:hover {
     opacity: .7;
+    transform: translate(0px, 0px);
 }
 
 .project__description {
@@ -86,16 +88,22 @@
     .project_name__block {
         width: 72%;
         background-color: var(--color-white);
-        box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
+        box-shadow: 1px -4px 12px 2px rgb(173 173 173 / 37%);
         border-top-left-radius: 7px;
         border-top-right-radius: 7px;
     }
     .project_image__block {
         width: 72%;
+        background-color: var(--color-white);
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
     .project__image {
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 7px;
-        border-bottom-left-radius: 7px;
+        box-shadow: -1px -6px 14px 0px rgb(173 173 173 / 89%);
+        transform: translate(0px, 0px);
+    }
+    .project__image:hover {
+        opacity: .7;
+        transform: translate(0px, 3px);
     }
 }
