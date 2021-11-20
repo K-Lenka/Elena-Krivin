@@ -476,28 +476,30 @@ hr {
 
 .btn_colored {
     margin: 0 10px 0 0;
-    color: var(--color-white);
-    background: linear-gradient(336deg, #478edf 0%, #d5a6fdde 100%);
+    color: var(--color-black);
+    box-shadow: -3px 4px 0px 0px #c4acf9;
+    border-color: #c4acf9;
 }
 
 .btn_colored:hover {
-    background: var(--color-white);
-    color: var(--color-option-text);
-    transition: all 0.3s ease-in-out;
     border-color: var(--color-orange);
+    box-shadow: -3px 4px 0px 0px rgb(255 190 66);
+    transition: all 0.3s ease-in-out;
+    transform: translate(0px, -5px);
 }
 
 .btn {
+    margin: 0 10px 0 0;
     color: var(--color-option-text);
     border-color: var(--color-orange);
-    background-color: transparent;
+    box-shadow: -3px 4px 0px 0px rgb(255 190 66);
 }
 
 .btn:hover {
-    border: none;
-    background: linear-gradient(140deg, #478edf 0%, #d5a6fdde 100%);
-    color: var(--color-white);
+    box-shadow: -3px 4px 0px 0px #c4acf9;
+    border-color: #c4acf9;
     transition: all 0.3s ease-in-out;
+    transform: translate(0px, -5px);
 }
 
 .info__text {
