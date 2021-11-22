@@ -461,6 +461,7 @@ hr {
     border: 1px solid;
     cursor: pointer;
     font-family: "Helvetica", Arial, sans-serif;
+    color: var(--color-option-text);
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
@@ -476,7 +477,6 @@ hr {
 
 .btn_colored {
     margin: 0 10px 0 0;
-    color: var(--color-black);
     box-shadow: -3px 4px 0px 0px #c4acf9;
     border-color: #c4acf9;
 }
@@ -490,7 +490,6 @@ hr {
 
 .btn {
     margin: 0 10px 0 0;
-    color: var(--color-option-text);
     border-color: var(--color-orange);
     box-shadow: -3px 4px 0px 0px rgb(255 190 66);
 }
