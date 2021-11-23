@@ -314,7 +314,8 @@ header::before {
     border-bottom-left-radius: 7px;
 }
 
-.intro__image {
+.intro__image,
+.info__image {
     position: relative;
     margin: 20px auto;
     width: 205px;
@@ -327,7 +328,9 @@ header::before {
 }
 
 .intro__image::before,
-.intro__image::after {
+.intro__image::after,
+.info__image::after,
+.info__image::before {
     display: block;
     content: "";
     position: absolute;
@@ -340,10 +343,15 @@ header::before {
     animation-delay: 1s;
 }
 
-.intro__image:after {
+.intro__image:after,
+.info__image::after {
     background: var(--color-orange);
     animation: 2s counterclockwise infinite;
     animation-delay: 1s;
+}
+
+.info__image {
+    display: none;
 }
 
 @keyframes clockwise {
@@ -729,7 +737,6 @@ hr {
     }
     .block__row {
         margin-top: 0;
-        /* padding: 140px 0 185px; */
     }
     .block__column {
         margin-top: 0;
@@ -743,6 +750,13 @@ hr {
     .card__intro {
         display: none;
     }
+    .intro__image {
+        display: none;
+    }
+    .info__image {
+        display: flex;
+        margin: 0 0 20px;
+    }
     .main__cards {
         flex-direction: column;
     }
@@ -754,6 +768,7 @@ hr {
         display: flex;
         flex-direction: column;
         border-radius: 5px;
+        z-index: 0;
     }
     .nav__column {
         padding-left: 32px;
