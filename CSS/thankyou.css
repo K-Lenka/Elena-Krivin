@@ -28,7 +28,7 @@ body {
     }
     .thankyou__message {
         padding: calc(20px + (50 - 20) * ((100vw - 320px) / (710 - 320)));
-        margin-top: calc(20px + (260 - 20) * ((100vw - 320px) / (710 - 320)));
+        margin-top: calc(200px + (260 - 200) * ((100vw - 320px) / (710 - 320)));
     }
     .thankyou__text {
         font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (710 - 320)));
