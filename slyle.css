@@ -737,6 +737,7 @@ hr {
     }
     .block__row {
         margin-top: 0;
+        padding: 105px 0 190px;
     }
     .block__column {
         margin-top: 0;
@@ -831,9 +832,6 @@ hr {
     .main__container {
         max-width: 350px;
     }
-    /* .block__row {
-        padding: 105px 0 55px;
-    } */
     .header__burger {
         width: 27px;
     }
